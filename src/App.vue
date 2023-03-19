@@ -2,18 +2,18 @@
     <div id="app">
       <Calculadora/>
     </div>
-  </template>
-  
+</template>
+
 <script>
-import Calculadora from './components/calculadora';
+import Calculadora from './components/calculadora'
 export default {
-    name: 'App',
-    components: {
-        Calculadora,
-    },
-};
+  name: 'App',
+  components: {
+    Calculadora
+  }
+}
 </script>
-  
+
 <style>
 #app {
     font-family: 'Avenir', Helvetica, Arial, sans-serif;
