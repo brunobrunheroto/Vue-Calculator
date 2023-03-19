@@ -20,6 +20,7 @@
       <div v-on:click="juntarNumeros('0')" class="botao zero">0</div>
       <div v-on:click="ponto" class="botao">.</div>
       <div v-on:click="resultado" class="botao operadores">=</div>
+      <!-- New operations -->
       <div v-on:click="log" class="botao operadores">Log</div>
       <div v-on:click="log10" class="botao operadores">Log<sub>10</sub></div>
       <div v-on:click="raiz2" class="botao operadores"><sup>2</sup>√</div>
