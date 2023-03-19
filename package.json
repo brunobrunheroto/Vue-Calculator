@@ -1,11 +1,11 @@
 {
-  "name": "calculadora-vue",
+  "name": "calculadora-app",
   "version": "1.0.0",
-  "description": "A Vue.js project",
-  "author": "brunobrunheroto",
+  "description": "Calculadora em Vue.js",
+  "author": "Bruno Brunheroto",
   "private": true,
   "scripts": {
-    "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
+    "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js --open --hot",
     "start": "npm run dev",
     "lint": "eslint --ext .js,.vue src",
     "build": "node build/build.js"
