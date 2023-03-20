@@ -28,8 +28,8 @@ export default {
         },
         juntarNumeros (numero) {
             if (this.operadorClicado) {
-            this.valorCorrente = ''
-            this.operadorClicado = false
+                this.valorCorrente = ''
+                this.operadorClicado = false
             }
     
             this.valorCorrente = `${this.valorCorrente}${numero}`
@@ -65,6 +65,28 @@ export default {
         },
         dividir () {
             this.operador = (num1, num2) => num1 / num2
+            this.setarValor()
+        },
+        // Novas operações
+        log () {
+            this.operador = (num1, num2) => Math.log(num1) / Math.log(num2)
+            this.setarValor()
+        },
+        log10 () {
+            this.valorCorrente = `${Math.log10(parseFloat(this.valorCorrente))}`
+        },
+        raiz2 () {
+            this.valorCorrente = `${Math.sqrt(parseFloat(this.valorCorrente))}`
+        },
+        raiz () {
+            this.operador = (num1, num2) => Math.pow(num1, 1/num2)
+            this.setarValor()
+        },
+        exp2 () {
+            this.valorCorrente = `${parseFloat(this.valorCorrente) ** 2}`
+        },
+        exp () {
+            this.operador = (num1, num2) => num1 ** num2
             this.setarValor()
         }
     }
