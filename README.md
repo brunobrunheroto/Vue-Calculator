@@ -1,8 +1,8 @@
-# vue-calculator
+# Vue Calculator
 
 ## <ins>Goals</ins>
 
-<p>A Vue.js project whose main objetive is to display a calculator on a web page.</p>
+<p>A Vue.js project whose main objetive is to display a calculator on a web application.</p>
 
 ## <ins>Technologies</ins>
 
@@ -10,7 +10,7 @@
 - HTML
 - CSS
 - Javascript
-  <p>The project was done using Visual Studio Code</p>
+<p>The project was done using Visual Studio Code</p>
 
 ## <ins>How to use </ins>
 
@@ -19,11 +19,12 @@
   - npm install --global vue-cli
   - npm install -g @vue/cli
   - npm i -g webpack-dev-server@1
-    > install dependencies
   - npm install
-    > serve with hot reload at localhost:8080
   - npm run dev
-    > build for production with minification
-  - npm run build
-    > build for production and view the bundle analyzer report
-  - npm run build --report
+
+## <ins>Execution of the program</ins>
+<img src="https://github.com/brunobrunheroto/VueCalculator/assets/67275098/7543e801-6192-425e-b0bc-2fbe0b7b4b2f" width="300" />
+
+## <ins>Credits</ins>
+
+<p> The ideia to work on this project and it's structure was shared by the professor José Martins at Facamp. </p>
