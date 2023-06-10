@@ -2,7 +2,7 @@
 
 ## <ins>Goals</ins>
 
-<p>A Vue.js project whose main objetive is to display a calculator on a web application.</p>
+<p>A Vue.js project whose main objetive is to create a calculator on a web application.</p>
 
 ## <ins>Technologies</ins>
 
